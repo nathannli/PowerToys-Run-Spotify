@@ -388,7 +388,8 @@ public class Main : IPlugin, IContextMenu, ISettingProvider
             Scope = new List<string>
             {
                 Scopes.UserReadPlaybackState,
-                Scopes.UserModifyPlaybackState
+                Scopes.UserModifyPlaybackState,
+                Scopes.UserLibraryRead
             }
         };
 
